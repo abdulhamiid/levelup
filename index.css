@@ -6,6 +6,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
+    padding-top:20px;
     margin: auto;
     width: 80%;
 }
@@ -30,6 +31,31 @@ li{
     padding: 20px;
 }
 a{
+    font-size: 18px;
     text-decoration: none;
+    color: #E5E7EB;
+}
+.cols{
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cols-img{
+    background-color: #E5E7EB;
+}
+.section-1{
     color: #f9fAf8;
+    background-color: #1f2937;
+}
+.btn-1{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 15px;
+    margin: 10px 0;
+    color: #f9fAf8;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
 }
