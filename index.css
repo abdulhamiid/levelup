@@ -1,3 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+nav{
+    background-color: #1f2937;
+    height: 70px;
+    /* text-align: center; */
+    /* padding: 30px; */
+}
+header{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9fAf8;
+}
+ul{
+    float: right;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #f9fAf8;
 }
