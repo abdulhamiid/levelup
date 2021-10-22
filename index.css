@@ -130,11 +130,21 @@ footer{
     color: #f9fAf8;
 }
 @media(max-width: 768px){
+    .container{
+        width: 90%;
+    }
     nav{
         text-align: center;
     }
+    li{
+        padding: 40px;
+    }
     header, ul{
         float: none;
+    }
+    ul{
+        margin-top: 20px;
+
     }
     .cols{
         display: block;
@@ -150,13 +160,21 @@ footer{
     }
     .btn-1{
         border-radius: 5px;
-        padding: 10px 20px;
+        padding: 12px 25px;
         margin: 10px 0;
     }
+    .section-2{
+        width: 90%;
+    }
     .illustrations{
-        width: 70%;
+        width: 100%;
         margin: auto;
         display: block;
+    }
+    .sec-2-cols{
+        margin: auto;
+        height: 200px;
+        width: 90%;
     }
     .illustrations > div{
         margin-bottom: 20px;
@@ -170,9 +188,19 @@ footer{
     .sec-3 p{
         font-size: 25px;
     }
+    .section-4{
+        margin: 50px 0;
+    }
+    
     .sec-4{
         display: block;
-        padding: 30px;
+        width: 100%;
+        border-radius: 0;
+        padding: 50px;
+    }
+    .sec-4 button{
+        padding: 12px 25px;
+        margin-top: 30px;
     }
 }
 
