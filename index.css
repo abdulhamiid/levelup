@@ -63,7 +63,7 @@ h1{
 .section-2{
     width: 60%;
     margin: auto;
-    background-color: #f9fAf8;
+    padding-bottom: 20px;
     text-align: center;
 }
 .section-2 > h3{
@@ -82,4 +82,44 @@ h1{
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
+}
+.section-3{
+    background-color: #E5E7EB;
+    text-align: center;
+}
+.sec-3{
+    margin: auto;
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.sec-3 p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.sec-3 h4{
+    float: right;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+.section-4{
+    margin: 50px;
+}
+.sec-4{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 80% 20%;
+    background-color: #3882f6;
+    padding: 30px;
+    color: #f9fAf8;
+    padding-left: 80px;
+    border-radius: 10px;
+}
+.sec-4 button{
+    padding: 7px 20px;
+    color: #f9fAf8;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
 }
