@@ -123,3 +123,9 @@ h1{
     border: 2px solid #E5E7EB;
     border-radius: 4px;
 }
+footer{
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    color: #f9fAf8;
+}
