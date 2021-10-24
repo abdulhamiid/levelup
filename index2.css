@@ -92,3 +92,27 @@ h1{
     float: right;
     padding-right: 30px;
 }
+.sec-4{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 80% 20%;
+    background-color: #3882f6;
+    margin: 50px 0;
+    padding: 30px;
+    color: #f9fAf8;
+    padding-left: 80px;
+    border-radius: 10px;
+}
+.sec-4 button{
+    padding: 7px 20px;
+    color: #f9fAf8;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+}
+footer{
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    color: #f9fAf8;
+}
