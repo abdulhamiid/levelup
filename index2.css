@@ -25,7 +25,11 @@ header{
 }
 li{
     display: inline;
-    padding-left: 70px;
+    margin: 0 20px;
+    padding-bottom: 4px;
+}
+li:hover{
+    border-bottom: 3px solid #E5E7EB;
 }
 nav a{
     text-decoration: none;
@@ -53,6 +57,9 @@ h1{
     margin: 10px 0;
     color: #f9fAf8;
     font-weight: 700;
+}
+.btn-1:hover{
+    opacity: 80%;
 }
 .section-2{
     width: 60%;
@@ -109,6 +116,10 @@ h1{
     background-color: #3882F6;
     border: 2px solid #E5E7EB;
     border-radius: 4px;
+}
+.sec-4 button:hover{
+    background-color: #f9fAf8;
+    color: #3882F6;
 }
 footer{
     background-color: #1F2937;
