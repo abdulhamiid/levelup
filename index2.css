@@ -54,3 +54,41 @@ h1{
     color: #f9fAf8;
     font-weight: 700;
 }
+.section-2{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.section-2 > h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.illustrations{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+}
+.section-3{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 60px;
+}
+.sec-3{
+    margin: auto;
+    width: 60%;
+}
+.sec-3 p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.sec-3 h4{
+    float: right;
+}
+.sec-3 small{
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    padding-right: 30px;
+}
